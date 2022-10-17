@@ -12,7 +12,7 @@
 .container__contacts {
     display: flex;
     flex-direction: column;
-    width: 25rem;
+    width: 22rem;
 }
 
 .contact-active {
@@ -20,7 +20,7 @@
     justify-content: flex-start;
     align-items: center;
     border-bottom: 2px solid #e8ebe4;
-    padding: 5px 5px;
+    padding: 0.6rem 0.6rem;
 }
 
 .contact-active__img {
@@ -32,26 +32,29 @@
 
 .contact-active__name {
     font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 100;
 }
 
 .contact-active__message {
     font-family: 'Roboto';
     font-size: 10px;
-    color: #bec1bb;
+    color: #828485;
 }
 
 .contact-active__icon {
     display: flex;
     width: 4rem;
-    color: #bec1bb;
+    color: #828485;
     margin-left: auto;
+    margin-right: 1rem;
     justify-content: space-around;
 }
 
 .button {
     text-align: center;
     border-bottom: 2px solid #e8ebe4;
-    padding: 2rem 2rem;
+    padding: 2.2rem 2.2rem;
 }
 
 .button__text {
@@ -60,7 +63,7 @@
     border: none;
     padding: 0.5rem 0.5rem;
     width: 10rem;
-    height: 2.5rem;
+    height: 2.6rem;
 }
 
 .button__text:hover {
@@ -75,7 +78,7 @@
     display: flex;
     align-items: center;
     border-bottom: 2px solid #e8ebe4;
-    padding: 5px 5px;
+    padding: 0.6rem 0.6rem;
 }
 
 .contact__img {
@@ -87,7 +90,8 @@
 
 .contact__name {
     font-family: 'Roboto';
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 100;
 }
 
 .contact__message {
